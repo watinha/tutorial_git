@@ -1,1 +1,3 @@
 *.swp
+/build/utils/*.class
+/test/build/test/utils/*.class
