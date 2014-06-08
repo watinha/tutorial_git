@@ -30,17 +30,15 @@ public class Fila implements IFila {
 
     public String toString () {
         String resultado = "";
-        if ( ! this.cheio && this.fim == this.inicio)
-            return resultado;
-        if (this.fim > this.inicio) {
-            for (int i = this.inicio; i < this.fim; i++)
-                    resultado += this.alunos[i] + ", ";
-        } else {
-            int tamanho = this.alunos.length - this.inicio + this.fim;
-            for (int i = 0; i < tamanho; i++)
-                resultado += this.alunos[
-                    (this.inicio + i) % this.alunos.length] + ", ";
-        }
-        return resultado.substring(0, resultado.length() - 2);
-    }
+        int tamanho;
+		if ( ! this.cheio && this.fim == this.inicio)
+			return resultado;
+		if(this.fim > this.inicio)
+			tamanho = this.fim - this.inicio;
+		else
+			tamanho = this.alunos.length - this.inicio + this.fim;
+		for (int i = 0; i < tamanho; i++)
+			resultado += this.alunos[(this.inicio + i) % this.alunos.length] + ", ";
+		return resultado.substring(0, resultado.length() - 2);
+	}
 }
