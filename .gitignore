@@ -1,3 +1,5 @@
 *.swp
 /build/utils/*.class
 /test/build/test/utils/*.class
+/nbproject/private/
+/build/
