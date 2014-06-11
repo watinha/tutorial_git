@@ -1,4 +1,4 @@
-package test.utils;
+package utils;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,7 @@ import org.junit.runners.JUnit4;
 import utils.IFila;
 import utils.Fila;
 import utils.FilaProxy;
-import test.utils.FilaMock;
+import utils.FilaMock;
 
 @RunWith(JUnit4.class)
 public class FilaProxyTest {
