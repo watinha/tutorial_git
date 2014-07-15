@@ -13,8 +13,14 @@ import java.util.ArrayList;
  */
 public class FilaProxyComposite {
 
+    private IFila destino;
+
     FilaProxyComposite() {
 
+    }
+
+    public FilaProxyComposite(IFila destino) {
+        this.destino = destino;
     }
 
     public void enfileirar(String nome, Fila f) {
