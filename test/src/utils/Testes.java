@@ -3,6 +3,8 @@
  * and open the template in the editor.
  */
 
+package utils;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
