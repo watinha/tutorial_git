@@ -63,12 +63,12 @@ public class FilaTest2 {
     public void testDesenfileirar1Elemento () {
         IFila f = new FilaProxy2(new Fila(2));
 
-        f.enfileirar("Rafael");
-        f.enfileirar("Bernardo");
+        f.enfileirar(1);
+        f.enfileirar(2);
 
         org.junit.Assert.assertEquals(
             "Verificando o estado da fila",
-            "[A]Rafael", f.desenfileirar());
+            "[A]1", f.desenfileirar());
     }
 
     @Test
