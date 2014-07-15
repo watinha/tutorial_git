@@ -3,18 +3,19 @@ package utils;
 public class Fila implements IFila {
     private int tamanho, fim = 0, inicio = 0;
     private boolean cheio = false;
-    private String [] alunos;
+    //private String [] alunos;
+    private Object[] alunos;
 
     public Fila (int tamanho) {
         this.tamanho = tamanho;
-        this.alunos = new String[tamanho];
+        this.alunos = new Object[tamanho];
     }
 
     public int getTamanho () {
         return this.tamanho;
     }
 
-    public void enfileirar (String nome) {
+    public void enfileirar (Object nome) {
         if ( ! this.cheio) {
             this.alunos[this.fim] = nome;
             this.fim = (this.fim + 1) % this.alunos.length;
@@ -23,7 +24,7 @@ public class Fila implements IFila {
         }
     }
 
-    public String desenfileirar () {
+    public Object desenfileirar () {
         this.cheio = false;
         return this.alunos[this.inicio++];
     }
