@@ -4,10 +4,10 @@ import utils.IFila;
 
 public class FilaMock implements IFila {
 
-    public String [] a = new String[15];
+    public Object [] a = new Object[15];
     public int tam = 0;
 
-    public void enfileirar (String aluno) {
+    public void enfileirar (Object aluno) {
         this.a[this.tam++] = aluno;
     }
 
