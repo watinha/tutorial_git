@@ -36,12 +36,12 @@ public class FilaProxy2 implements IFila {
 	/*
 	 *	adiciona o indice alfabetico de acordo com a ordem de chegada do novo elemento
 	 * */
-    public void enfileirar (String aluno) {
+    public void enfileirar (Object aluno) {
 		this.cont++;
         this.destino.enfileirar("[" + atribuiIndice() + "]" + aluno);
     }
 
-    public String desenfileirar (){
+    public Object desenfileirar (){
         return (this.destino.desenfileirar());
     }
 

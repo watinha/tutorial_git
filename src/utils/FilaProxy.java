@@ -8,12 +8,12 @@ public class FilaProxy implements IFila {
         this.destino = destino;
     }
 
-    public void enfileirar (String aluno) {
+    public void enfileirar (Object aluno) {
         this.cont++;
         this.destino.enfileirar("[" + this.cont + "]" + aluno);
     }
 
-    public String desenfileirar () {
+    public Object desenfileirar () {
         return this.destino.desenfileirar();
     }
 

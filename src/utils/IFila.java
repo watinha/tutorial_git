@@ -1,7 +1,7 @@
 package utils;
 
 public interface IFila {
-    public void enfileirar(String nome);
-    public String desenfileirar();
+    public void enfileirar(Object nome);
+    public Object desenfileirar();
     public String toString();
 }

@@ -12,17 +12,17 @@ import utils.FilaProxy2;
 import utils.FilaMock;
 
 @RunWith(JUnit4.class)
-public class FilaProxy2Test {
+public class FilaTest2 {
 
     @Test
     public void testEnfileirar1elemento () {
         IFila f = new FilaProxy2(new Fila(5));
 
-        f.enfileirar("Luma");
+        f.enfileirar(1);
 
         org.junit.Assert.assertEquals(
             "Verificando o estado da fila",
-            "[A]Luma", f.toString());
+            "[A]1", f.toString());
     }
 
     @Test
@@ -30,11 +30,11 @@ public class FilaProxy2Test {
         IFila f = new FilaProxy2(new Fila(5));
 
         f.enfileirar("Marcelo");
-        f.enfileirar("Leticia");
+        f.enfileirar(23.45);
 
         org.junit.Assert.assertEquals(
             "Verificando o estado da fila",
-            "[A]Marcelo, [B]Leticia", f.toString());
+            "[A]Marcelo, [B]23.45", f.toString());
     }
 
     @Test
@@ -51,24 +51,24 @@ public class FilaProxy2Test {
         IFila f = new FilaProxy2(new Fila(2));
 
         f.enfileirar("Rafael");
-        f.enfileirar("Bernardo");
+        f.enfileirar(42);
         f.enfileirar("Diogo");
 
         org.junit.Assert.assertEquals(
             "Verificando o estado da fila",
-            "[A]Rafael, [B]Bernardo", f.toString());
+            "[A]Rafael, [B]42", f.toString());
     }
 
     @Test
     public void testDesenfileirar1Elemento () {
         IFila f = new FilaProxy2(new Fila(2));
 
-        f.enfileirar("Rafael");
-        f.enfileirar("Bernardo");
+        f.enfileirar(1);
+        f.enfileirar(2);
 
         org.junit.Assert.assertEquals(
             "Verificando o estado da fila",
-            "[A]Rafael", f.desenfileirar());
+            "[A]1", f.desenfileirar());
     }
 
     @Test
