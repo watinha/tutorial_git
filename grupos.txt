@@ -24,16 +24,16 @@ Compartilhamento em redes sociais (twitter e facebook)
 
 Grupo 4 - Lyncoln Mauricio Santos do Carmo e Marina Takayama Lyra
 Funcionalidades:
-Cadastro dos usuários do sistema;
-Cadastro dos equipamento;
+1-Cadastro dos usuários do sistema;
+2-Cadastro dos equipamento;
  
-Controle de cadastro de equipamentos;
-Cadastro dos operadores dos equipamentos;
+3-Controle de cadastro de equipamentos;
+4-Cadastro dos operadores dos equipamentos;
  
-Controle de permissões dos operadores com os equipamentos;
-Cadastro de utilização do equipamento;
+5-Controle de permissões dos operadores com os equipamentos;
+6-Cadastro de utilização do equipamento;
  
-Cadastro das manutenções preventivas;
-Cadastro de manutenções emergenciais;
-Histórico do fluxo de acordo com o equipamento e/ou operador;
-Criação de relatórios.
+7-Cadastro das manutenções preventivas;
+8-Cadastro de manutenções emergenciais;
+9-Histórico do fluxo de acordo com o equipamento e/ou operador;
+10-Criação de relatórios.
