@@ -8,7 +8,6 @@ Funcionalidades:
 
 Grupo 3 - Arthur e Rafael
 Funcionalidades:
-
 Cadastro de usuÃ¡rios (nome, idade, integrantes, fotos)
 Login com facebook
 
@@ -19,10 +18,22 @@ Busca por categoria, artista, banda ou grupo
 Feedback (AvaliaÃ§Ã£o e comentÃ¡rio)
 ModeraÃ§Ã£o de comentÃ¡rios por administrador
 
-
 Funcionalidade de seguir usuÃ¡rios e categorias
 Timeline das mÃºsicas
 Compartilhamento em redes sociais (twitter e facebook)
 
-Grupo 4 - NomeX e NomeY
+Grupo 4 - Lyncoln Mauricio Santos do Carmo e Marina Takayama Lyra
 Funcionalidades:
+Cadastro dos usuários do sistema;
+Cadastro dos equipamento;
+ 
+Controle de cadastro de equipamentos;
+Cadastro dos operadores dos equipamentos;
+ 
+Controle de permissões dos operadores com os equipamentos;
+Cadastro de utilização do equipamento;
+ 
+Cadastro das manutenções preventivas;
+Cadastro de manutenções emergenciais;
+Histórico do fluxo de acordo com o equipamento e/ou operador;
+Criação de relatórios.
