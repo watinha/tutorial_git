@@ -6,20 +6,20 @@ Funcionalidades: nada
 Grupo 2 - NomeX e NomeY
 Funcionalidades:
 
-Grupo 3 - NomeX e NomeY
-Funcionalidades:
+Grupo 3 - eu de novo
+Funcionalidades: abobrinha e pepino
 
 Grupo 4 - Lyncoln Mauricio Santos do Carmo e Marina Takayama Lyra
 Funcionalidades:
 Cadastro dos usuários do sistema;
 Cadastro dos equipamento;
- 
+
 Controle de cadastro de equipamentos;
 Cadastro dos operadores dos equipamentos;
- 
+
 Controle de permissões dos operadores com os equipamentos;
 Cadastro de utilização do equipamento;
- 
+
 Cadastro das manutenções preventivas;
 Cadastro de manutenções emergenciais;
 Histórico do fluxo de acordo com o equipamento e/ou operador;
