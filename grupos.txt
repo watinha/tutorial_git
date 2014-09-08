@@ -6,8 +6,23 @@ Funcionalidades:
 Grupo 2 - NomeX e NomeY
 Funcionalidades:
 
-Grupo 3 - NomeX e NomeY
+Grupo 3 - Arthur e Rafael
 Funcionalidades:
+
+Cadastro de usuários (nome, idade, integrantes, fotos)
+Login com facebook
+
+Cadastro de músicas
+Moderação de música por administrador
+
+Busca por categoria, artista, banda ou grupo
+Feedback (Avaliação e comentário)
+Moderação de comentários por administrador
+
+
+Funcionalidade de seguir usuários e categorias
+Timeline das músicas
+Compartilhamento em redes sociais (twitter e facebook)
 
 Grupo 4 - NomeX e NomeY
 Funcionalidades:
